@@ -1,3 +1,23 @@
 p {
   color: red;
 }
+
+.hero-img {
+  background-image: url("../images/hero.jpg");
+  background-size: cover;
+  background-position: left center;
+}
+
+.outline {
+  border-style: solid;
+  border-color: red;
+}
+
+.image-help {
+  width: 100%;
+  // height: 30%;
+}
+
+.no-bullet {
+  list-style-type: none;
+}

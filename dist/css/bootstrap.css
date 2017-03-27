@@ -9331,4 +9331,24 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 p {
   color: red;
 }
+
+.hero-img {
+  background-image: url("../images/hero.jpg");
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: left center;
+}
+
+.outline {
+  border-style: solid;
+  border-color: red;
+}
+
+.image-help {
+  width: 100%;
+}
+
+.no-bullet {
+  list-style-type: none;
+}
 /*# sourceMappingURL=bootstrap.css.map */
