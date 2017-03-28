@@ -1,5 +1,5 @@
-p {
-  color: red;
+body {
+  color: #000000;
 }
 
 .hero-img {
@@ -14,10 +14,31 @@ p {
 }
 
 .image-help {
-  width: 60%;
+  width: 200px;
   // height: 30%;
 }
 
 .no-bullet {
   list-style-type: none;
+}
+
+.bg-grey {
+  background-color: #fdf9f9;
+}
+
+.pad {
+  padding: 3em 1em 2em 2em;
+}
+
+.bg-sky {
+  background-color: $sky;
+}
+
+a:focus, a:hover {
+  color: $red;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  color: $red;
+  background-color: #fdf9f9;
 }
