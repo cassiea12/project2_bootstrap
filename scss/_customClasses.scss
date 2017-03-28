@@ -8,14 +8,8 @@ body {
   background-position: left center;
 }
 
-.outline {
-  border-style: solid;
-  border-color: red;
-}
-
 .image-help {
   width: 200px;
-  // height: 30%;
 }
 
 .no-bullet {
@@ -23,7 +17,7 @@ body {
 }
 
 .bg-grey {
-  background-color: #fdf9f9;
+  background-color: $lightgrey;
 }
 
 .pad {
@@ -40,5 +34,5 @@ a:focus, a:hover {
 
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
   color: $red;
-  background-color: #fdf9f9;
+  background-color: $lightgrey;
 }
