@@ -1,38 +1,59 @@
 body {
   color: #000000;
 }
-
-.hero-img {
-  background-image: url("../images/hero.jpg");
-  background-size: cover;
-  background-position: left center;
+hr {
+  border-top: 1px solid $black;
 }
-
-.image-help {
-  width: 200px;
+h1 {
+  color: $white;
 }
-
-.no-bullet {
-  list-style-type: none;
-}
-
-.bg-grey {
-  background-color: $lightgrey;
-}
-
-.pad {
-  padding: 3em 1em 2em 2em;
-}
-
-.bg-sky {
-  background-color: $sky;
-}
-
 a:focus, a:hover {
   color: $red;
 }
 
+// backgrounds
+.bg-grey {
+  background-color: $lightgrey;
+}
+.bg-dark-blue {
+  background-color: $dark-blue;
+}
+.bg-light-red {
+  background-color: $light-red;
+}
+.hero-img {
+  background-image: url("../images/hero-img.jpg");
+  background-size: cover;
+  background-position: left center;
+}
+.image-help {
+  width: 200px;
+}
+.bg-panels {
+  background-color: $panels;
+}
+
+// nav
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
   color: $red;
-  background-color: $lightgrey;
+  background-color: $light-red;
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler {
+  color: $white;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover, .navbar-light .navbar-toggler:focus, .navbar-light .navbar-toggler:hover {
+  color: $red;
+}
+.nav-link {
+  padding: 0.5em 3em;
+}
+
+// lists
+.no-bullet {
+  list-style-type: none;
+}
+
+// misc
+.pad {
+  padding: 3em 1em 2em 2em;
 }
